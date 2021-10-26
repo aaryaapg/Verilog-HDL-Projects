@@ -1,2 +1,2 @@
 # Verilog-HDL-Projects
-Icarus Verilog + GTKWave
+Icarus Verilog Download: http://bleyer.org/icarus/
