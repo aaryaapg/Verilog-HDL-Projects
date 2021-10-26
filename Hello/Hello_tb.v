@@ -12,6 +12,7 @@ module Hello_tb;
         a = 1;
         #20;
         a = 0;
+        #20;
         $display("Test Complete");
 
     end
