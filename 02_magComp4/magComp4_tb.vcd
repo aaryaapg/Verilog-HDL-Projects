@@ -1,0 +1,64 @@
+$date
+	Thu Oct 28 21:17:14 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module magComp4_tb $end
+$var wire 1 ! bothEqual $end
+$var wire 1 " B_greater $end
+$var wire 1 # A_greater $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$scope module uut $end
+$var wire 4 & A [3:0] $end
+$var wire 1 # A_greater $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 " B_greater $end
+$var wire 1 ! bothEqual $end
+$var wire 4 ( x [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 (
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+0"
+1!
+$end
+#10000
+1"
+0!
+b1001 (
+b110 %
+b110 '
+#20000
+0"
+1#
+b101 (
+b1100 $
+b1100 &
+#30000
+1"
+0#
+b1 (
+b1010 %
+b1010 '
+b100 $
+b100 &
+#40000
+0"
+1!
+b1111 (
+b110 %
+b110 '
+b110 $
+b110 &

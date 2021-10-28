@@ -6,7 +6,7 @@ module magComp1_tb;
 	magComp1 uut (.A(A), .B(B), .bothEqual(bothEqual), .A_greater(A_greater), .B_greater(B_greater));
 	initial begin
 		$dumpfile("magComp1_tb.vcd");
-        $dumpvars(0, magComp1_tb);
+    $dumpvars(0, magComp1_tb);
 		A = 0; B = 0;
 		#10 A = 0; B = 1;
 		#10 A = 1; B = 0;
